@@ -1,0 +1,198 @@
+[
+    {
+        "user": { //save
+            "city": "Rolim de Moura",
+            "address": "Av. Brasil",
+            "houseNumber": "2256",
+            "email": "gatinhoFofo@gmail.com",
+            "phone": "69 984465997",
+            "cellNumber": "69 959977089",
+            "name": "Luiz Inácio",
+            "district": "Centro",
+            "password": "12345",
+            "confirmPassword": "12345"
+        }
+    },
+    // singin
+    {
+        "cellNumber": "9 5997-7088",
+        "password": "12345"
+    },
+    {
+        "complaint": { //save
+            "description": "Tem um cara comendo cachorro",
+            "address": "Av. Brasil",
+            "complaintType": "Maus tratos",
+            "city": "Rolim de Moura",
+            "district": "Centro"
+        }
+    },
+    {
+        "visit": { //save
+            "adoptionId": 1,
+            "report": "Lá tá bem louco, o cachorro tá na cozinha fazendo cookies enquando cuida de um bebê de 32 anos"
+        }
+    },
+    {
+        "donation": { //save
+            "donationType": "money",
+            "description": "Vou doar meu filho, não presta para nada",
+            "specimenValue": 220.25,
+            "userId": 1 // header
+        }
+    },
+    {
+        "temporaryHome": { //save
+            "adopterName": "Keila Ferreira de Noronha",
+            "cellNumber": "69 984465997",
+            "animalId": 1
+        }
+    },
+    {
+        "collaborator": { //save
+            "name": "Lucas Martins de Jesus",
+            "cellNumber": "69 984465997",
+            "city": "AFO Vegas",
+            "dateOfBirth": "1995-08-12"
+        }
+    },
+    {
+        "veterinaryCare": { //save
+            "needOfHospitalization": true,
+            "needOfMedication": true,
+            "dateOfVeterinaryCare": "1995-08-12",
+            "anamnese": "Lembro de nada",
+            "veterinaryName": "Golias Davi de Judá",
+            "costsVeterinaries": [
+                {
+                    "medicament": "Dipirona",
+                    "value": 12
+                },
+                {
+                    "medicament": "Rivotril",
+                    "value": 22.50
+                }
+            ]
+        }
+    },
+    {
+        "adoption": { //save
+            "dateAdoption": "1995-08-12",
+            "animalId": 1,
+            "collaboratorId": 2,
+            "userId": 3
+        }
+    },
+    {
+        "rescue": { // save
+            "dateOfRescue": "1995-08-12",
+            "forwardedToKennel": true,
+            "policeSupport": true,
+            "locale": "Debaixo da ponte",
+            "BONumber": "25559944-85",
+            "address": "Av. José Josias Jáque Tupeida",
+            "veterinaryCareId": 3,
+            "animalId": 3
+        }
+    },
+    {
+        "rescue": { // save
+            "dateOfRescue": "1995-08-12",
+            "forwardedToKennel": true,
+            "policeSupport": true,
+            "locale": "Debaixo da ponte",
+            "BONumber": "25559944-85",
+            "address": "Av. José Josias Jáque Tupeida",
+            "veterinaryCareId": 3,
+            "animalId": 3, // params
+            "collaboratorsId": []
+        }
+    },
+    {
+        "interestedInAdoption": { // save
+            "description": "É um canil, é perfeito!",
+            "animalId": 1, //params
+            "userId": 1 // header
+        }
+    },
+    /*  interested-in-adoption
+    const image = {
+        uri: image.uri,
+        type: 'image/' + image.filename.split('.')[1],
+        name: image.filename
+    }
+
+    let imageData = new FormData()
+        imageData.append('interestedPicture', image)
+        imageData.append('interestedInAdoptionId', interestedInAdoptionId)
+    */
+    {
+        "animal": {
+            "color": "Red",
+            "name": "Rin-tin-tin sem rin",
+            "aproximateAge": "2-4 meses",
+            "specie": "Cão",
+            "castrated": true,
+            "breed": "Xiuaua",
+            "surname": "Tchuthuca",
+            "sex": "F",
+            "othersCharacteristics": "Ele é fanho"
+        }
+    },
+    /*  animal-pictures
+    const image = {
+        uri: image.uri,
+        type: 'image/' + image.filename.split('.')[1],
+        name: image.filename
+    }
+
+    let imageData = new FormData()
+        imageData.append('animalPicture', image)
+        imageData.append('animalId', animalId)
+    */
+    {
+        "remoteMonitoring": { // save
+            "observations": "Ele tem agido estranho ultimamente, miando, joganto GTA 5 no meu play 4. E eu nem tenho um PS4",
+            "adoptionId": 5
+        }
+    },
+    /*  remote-monitoring-pictures
+    const image = {
+        uri: image.uri,
+        type: 'image/' + image.filename.split('.')[1],
+        name: image.filename
+    }
+
+    let imageData = new FormData()
+        imageData.append('remoteMonitoringPicture', image)
+        imageData.append('remoteMonitoringId', remoteMonitoringId)
+    */
+    {
+        "publication": { //save
+            "title": "Show do Milhão!",
+            "description": "Jogue os jogos e ganhe um cão!",
+            "reference": "Perto de algum lugar",
+            "dateTime": "2020-12-25",
+            "address": "Av. Jośe R. dos Reis Filho",
+            "city": 5,
+            "publicationType": "event",
+            "district": "Miolo da Cidade",
+            "animalName": "Auau",
+            "history": "Foi resgatado No lixo",
+            "reasonRescue": "Abandono"
+        }
+    },
+    /*  publication-pictures
+    const image = {
+        uri: image.uri,
+        type: 'image/' + image.filename.split('.')[1],
+        name: image.filename
+    }
+
+    let imageData = new FormData()
+        imageData.append('publicationPicture', image)
+        imageData.append('publicationId', publicationId)
+    */
+    {}
+
+]

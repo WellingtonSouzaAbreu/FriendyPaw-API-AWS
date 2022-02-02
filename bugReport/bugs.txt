@@ -1,0 +1,26 @@
+{"dateTime":"2021-11-20T18:31:12.692Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2021-11-20T18:31:12.690Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+
+{"dateTime":"2021-11-22T18:29:21.762Z","file":"animal.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Saudável', 29, '2021-11-22 14:20:57.346', true, true, '500,00', 'Dr. Lucas') - WARN_DATA_TRUNCATED: Data truncated for column 'totalCostOfTreatment' at row 1"}
+
+{"dateTime":"2021-12-29T01:08:59.730Z","file":"user.js","message":"Usuário já cadastrado"}
+
+{"dateTime":"2022-01-15T17:58:51.242Z","file":"user.js","message":"Usuário já cadastrado"}
+
+{"dateTime":"2022-01-15T17:58:57.221Z","file":"user.js","message":"Usuário já cadastrado"}
+
+{"dateTime":"2022-01-15T20:03:09.335Z","file":"interestedInAdoption.js","message":"Descrição não informada"}
+
+{"dateTime":"2022-02-02T17:16:12.174Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
+{"dateTime":"2022-02-02T17:16:12.179Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
+{"dateTime":"2022-02-02T17:16:42.081Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
+{"dateTime":"2022-02-02T17:16:42.086Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
+{"dateTime":"2022-02-02T17:17:02.418Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
+{"dateTime":"2022-02-02T17:17:02.421Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+
