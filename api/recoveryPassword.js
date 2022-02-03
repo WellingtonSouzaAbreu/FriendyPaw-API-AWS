@@ -1,5 +1,5 @@
 const path = require('path')
-const baseApiUrl = 'http://192.168.2.183:500'
+const baseApiUrl = 'http://18.228.220.101:500'
 
 module.exports = app => {
     const jwt = require('jwt-simple')
@@ -179,7 +179,7 @@ module.exports = app => {
         let nodemailer = require('nodemailer');
 
         const senderUser = 'wellingtonsouza.wsa100@gmail.com'
-        const senderPassword = 'Outubro10' // TODO
+        const senderPassword = 'aevxuoqywwwlsdhl' // TODO
         const recipient = email
 
         let remetente = nodemailer.createTransport({ //Configuração de remetente
@@ -232,8 +232,9 @@ module.exports = app => {
     }
 
     const sendSms = async (cellNumber, url) => {
+
         const accountSid = 'AC654e478886b12bb8e06b522f26080d11';
-        const authToken = 'eba35f05b708c4f580dff930f506b96b';
+        const authToken = '0de1d4b9bab5e5f9ea702ad1203f1473';
         const client = require('twilio')(accountSid, authToken);
 
         const message = `

@@ -24,3 +24,45 @@
 
 {"dateTime":"2022-02-02T17:17:02.421Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
 
+{"dateTime":"2022-02-03T13:24:26.926Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 10sm6636338uaq.9 - gsmtp"}
+
+{"dateTime":"2022-02-03T13:24:26.928Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+
+{"dateTime":"2022-02-03T13:31:19.598Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 17sm4328885vky.10 - gsmtp"}
+
+{"dateTime":"2022-02-03T13:31:19.600Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+
+{"dateTime":"2022-02-03T13:37:40.032Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+
+{"dateTime":"2022-02-03T13:37:40.035Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T13:48:30.636Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+
+{"dateTime":"2022-02-03T13:48:30.638Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T13:52:23.078Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+
+{"dateTime":"2022-02-03T13:52:23.080Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T13:57:48.853Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T13:58:53.260Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+
+{"dateTime":"2022-02-03T13:58:53.262Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T14:05:56.039Z","file":"recoveryPassword.js","message":"Error: Authentication Error - invalid username"}
+
+{"dateTime":"2022-02-03T14:05:56.041Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-02-03T14:23:37.690Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor s12sm4495245vsn.29 - gsmtp"}
+
+{"dateTime":"2022-02-03T14:23:37.692Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+
+{"dateTime":"2022-02-03T14:24:20.149Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor bc28sm6887119vkb.13 - gsmtp"}
+
+{"dateTime":"2022-02-03T14:24:20.151Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+
+{"dateTime":"2022-02-03T14:32:48.861Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k203sm6606416vka.56 - gsmtp"}
+
+{"dateTime":"2022-02-03T14:32:48.863Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+
