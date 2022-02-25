@@ -4,7 +4,7 @@ const https = require('https');
 const fs = require('fs')
 const port = 500
 
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0' // Permite tudo
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0 // Permite tudo
 
 app.db = require('./config/db.js')
 
