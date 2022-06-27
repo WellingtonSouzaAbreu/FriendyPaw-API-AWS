@@ -1,74 +1,71 @@
 const path = require('path')
 
 module.exports = app => {
+    const { showAndRegisterError } = app.api.commonFunctions
+    const { isValidId } = app.api.validation
 
-    const getRescue = async(req,res) => {
-        const animalId = req.params.animalId ? req.params.animalId : res.status(400).send('Animal não identificado')
+    const getRescueByAnimalId = async (req, res) => {
+        const animalId = isValidId(req.params.animalId) && req.params.animalId
+        if (!animalId) return res.status(400).send('Animal não identificado!')
 
         await app.db('rescues')
-            .where({animalId: animalId})
+            .where({ animalId })
             .first()
             .then(rescue => res.status(200).send(rescue))
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
             })
     }
 
     const update = async (req, res) => {
         const { existsOrError, objectIsNull } = app.api.validation
+        const { convertStringToDate } = app.api.commonFunctions
 
-        console.log(req.body.rescue)
+        const rescue = !objectIsNull(req.body.rescue) && req.body.rescue
+        if (!rescue) return res.status(400).send('Dados do resgate não informados!')
 
-        const rescue = await objectIsNull(req.body.rescue) ? res.status(400).send('Dados do resgate não informados') : req.body.rescue
-        rescue.animalId = req.params.animalId ? req.params.animalId : res.status(400).send('Animal não identificado')
-        
-        let collaboratorsId = rescue.collaboratorsId
+        if (!isValidId(rescue.animalId)) rescue.animalId = req.params.animalId
+
         delete rescue.collaboratorsId
 
         try {
-            existsOrError(rescue.dateOfRescue, 'Data não informado')
-            existsOrError(rescue.address, 'Endereço não informado')
-            existsOrError(rescue.animalId, 'Animal não informado')
-            existsOrError(rescue.veterinaryCareId, 'Cuidado veterinário não informado')
+            existsOrError(rescue.dateOfRescue, 'Data não informado!')
+            existsOrError(rescue.address, 'Endereço não informado!')
+            existsOrError(isValidId(rescue.animalId), 'Animal não informado!')
+            existsOrError(isValidId(rescue.veterinaryCareId), 'Cuidado veterinário não informado!')
         } catch (err) {
+            showAndRegisterError(err, path.basename(__filename))
             return res.status(400).send(err)
         }
 
-        rescue.dateOfRescue = new Date(rescue.dateOfRescue)
+        rescue.dateOfRescue = convertStringToDate(rescue.dateOfRescue)
 
-        let idRescue
-        await app.db('rescues')
-            .update(rescue)
-            .where({id: rescue.id})
-            .then(id => /* idRescue = id[0] */ res.status(200).send())
-            .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send()
-            })
+        console.log('rescue.id: ' + rescue.id)
+        console.log('rescue.animalId: ' + rescue.animalId)
 
-        /* let collaboratorsData = []
-        for (collaboratorId of collaboratorsId) {
-            collaboratorsData.push({ collaboratorId: collaboratorId, rescueId: idRescue })
-        }
-
-        if (collaboratorsData.length < 1) {
-            res.status(204).send()
-        } else {
-            await app.db('collaborators-involveds-in-rescue')
-                .insert(collaboratorsData)
+        if (rescue.id) {
+            await app.db('rescues')
+                .update(rescue)
+                .where({ id: rescue.id })
                 .then(_ => res.status(204).send())
                 .catch(err => {
-                    console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                    res.status(500).send('Erro ao cadastrar collaboradores envolvidos no resgate')
+                    showAndRegisterError(err, path.basename(__filename))
+                    return res.status(500).send()
                 })
-        } */
-
+        } else {
+            await app.db('rescues')
+                .update(rescue)
+                .where({ animalId: rescue.animalId }) // UNIQUE
+                .then(_ => res.status(204).send())
+                .catch(err => {
+                    showAndRegisterError(err, path.basename(__filename))
+                    return res.status(500).send()
+                })
+        }
     }
 
-    return {getRescue, update }
+    return { getRescueByAnimalId, update }
 }
 
+// 73 -> 69

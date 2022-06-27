@@ -28,7 +28,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 return res.status(500).send(err)
             })
     }
@@ -74,7 +74,7 @@ module.exports = app => {
             .then(imagesURL => imagesURL.imageURL)
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 throw err
             })
     }
@@ -100,7 +100,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
 
@@ -119,7 +119,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
 
@@ -141,7 +141,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -172,7 +172,7 @@ module.exports = app => {
                         })
                         .catch(err => {
                             console.log(err)
-                            app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                            // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                             throw err
                         })
                 }
@@ -183,7 +183,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 throw err
             })
     }
@@ -197,7 +197,7 @@ module.exports = app => {
                 .then(imageURL => animal.imageURL = imageURL ? imageURL.imageURL : null)
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     throw 'Erro o obter imagem do animal'
                     // res.status(500).send(err)
                 })
@@ -229,7 +229,7 @@ module.exports = app => {
                 .then(_ => res.status(204).send())
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Erro ao cadastrar adoção')
                 })
         } else {
@@ -239,7 +239,7 @@ module.exports = app => {
                 .then(_ => res.status(204).send())
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Erro ao atualizar adoção')
                 })
         }
@@ -258,7 +258,7 @@ module.exports = app => {
                 .then(_ => console.log(`Adoção de id: ${idAdoption} deletado`))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Ocorreu um erro ao deletar adoção')
                 })
         })

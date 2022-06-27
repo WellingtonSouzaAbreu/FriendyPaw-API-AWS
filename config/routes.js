@@ -43,12 +43,13 @@ module.exports = app => {
     app.route('/collaborator')
         .get(app.api.collaborator.getCollaborators)
         .post(app.api.collaborator.save)
-        .put(app.api.collaborator.save)
-
-    app.route('/collaborator/:id')
-        .delete(app.api.collaborator.removeCollaborator)
+        .put(app.api.collaborator.update)
 
     app.get('/collaborator/select-options', app.api.collaborator.getCollaboratorSelectOptions)
+
+    app.route('/collaborator/:id')
+        .get(app.api.collaborator.getCollaboratorById)
+        .delete(app.api.collaborator.removeCollaborator)
 
     app.route('/complaint')
         .get(app.api.complaint.getComplaints)
@@ -58,17 +59,20 @@ module.exports = app => {
         .put(app.api.complaint.changeStateOfComplaint)
 
     app.route('/complaint/:id')
+        .get(app.api.complaint.getComplaintById)
         .delete(app.api.complaint.removeComplaint)
 
     app.route('/donation')
         .all(app.config.passport.authenticate())
         .get(app.api.donation.getDonations)
         .post(app.api.donation.save)
+        .put(app.api.donation.save)
 
     app.route('/donation/change-state/:id/:state')
         .put(app.api.donation.changeStateOfDonation)
 
     app.route('/donation/:id')
+        .get(app.api.donation.getDonationById)
         .delete(app.api.donation.removeDonation)
 
     app.route('/donation/number-of-donations-received')
@@ -95,7 +99,6 @@ module.exports = app => {
         .get(app.api.publication.getPublicationsSummarized)
 
     app.get('/publication/event', app.api.publication.getEvents)
-
     app.get('/publication/done', app.api.publication.getDones)
 
     app.route('/publication/:id')
@@ -104,22 +107,25 @@ module.exports = app => {
 
     app.post('/publication/picture', app.api.publication.savePicture)
 
-    app.post('/remote-monitoring', app.api.remoteMonitoring.save)
+    app.post('/remote-monitoring', app.api.remoteMonitoring.save) 
 
     app.delete('/remote-monitoring/:id', app.api.remoteMonitoring.removeRemoteMonitoring)
 
-    app.get('/remote-monitoring/:idAdoption', app.api.remoteMonitoring.getRemoteMonitoringsByAdoption)
+    app.get('/remote-monitoring/:adoptionId', app.api.remoteMonitoring.getRemoteMonitoringsByAdoption)
 
     app.post('/remote-monitoring/picture', app.api.remoteMonitoring.savePicture)
 
     app.route('/rescue/:animalId')
-        .get(app.api.rescue.getRescue)
+        .get(app.api.rescue.getRescueByAnimalId)
         .put(app.api.rescue.update)
 
-    app.delete('/temporary-home/:id', app.api.temporaryHome.removeTemporaryHome)
+    app.route('/temporary-home/:id')
+        .get(app.api.temporaryHome.getTemporaryHomeById)
+        .delete(app.api.temporaryHome.removeTemporaryHome)
 
     app.route('/temporary-home')
         .get(app.api.temporaryHome.getTemporaryHomes)
+        .put(app.api.temporaryHome.update)
         .post(app.api.temporaryHome.save)
 
     app.get('/user/select-options', app.api.user.getUserSelectOptions)
@@ -127,19 +133,21 @@ module.exports = app => {
     app.route('/user/:id')
         .all(app.config.passport.authenticate())
         .get(app.api.user.getUserById)
-        .put(app.api.user.save)
+        .put(app.api.user.update)
 
-    app.post('/veterinary-care', app.api.veterinaryCare.save)
-    app.delete('/veterinary-care/:id', app.api.veterinaryCare.removeVeterinaryCare)
+    app.route('/veterinary-care')
+        .post(app.api.veterinaryCare.save)
+        .put(app.api.veterinaryCare.update)
+
+    app.route('/veterinary-care/:id')
+        .get(app.api.veterinaryCare.getVeterinaryCareById)
+        .delete(app.api.veterinaryCare.removeVeterinaryCare)
 
     app.post('/visit', app.api.visit.save)
-
     app.delete('/visit/:id', app.api.visit.removeVisit)
-
-    app.get('/visit/:idAdoption', app.api.visit.getVisitsByAdoption)
+    app.get('/visit/:adoptionId', app.api.visit.getVisitsByAdoption)
 
     app.post('/generate-recovery-password', app.api.recoveryPassword.generateStaticPage)
-
     app.put('/recovery-password', app.api.recoveryPassword.saveNewPassword)
 
     app.get('/already-changed', app.api.recoveryPassword.endpointAlreadyUsed)

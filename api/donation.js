@@ -1,6 +1,9 @@
 const path = require('path')
+const { user } = require('../apiTestConfig/dataTest')
 
 module.exports = app => {
+    const { showLog, showAndRegisterError } = app.api.commonFunctions
+    const { isValidId } = app.api.validation
 
     const getDonations = async (req, res) => {
         let name = req.query.name ? req.query.name.toLowerCase() : ''
@@ -10,48 +13,62 @@ module.exports = app => {
         let offset = page > 0 ? (page * rowsPerPage) + 1 : page * rowsPerPage
         let limit = parseInt(rowsPerPage) + 1 // Deixar o paginator ativo
 
-        /* console.log(`Limit: ${limit}`)
-        console.log(`Offset: ${offset}`) */
+        /* showLog(`Limit: ${limit}`)
+        showLog(`Offset: ${offset}`) */
 
         await app.db('donations')
             .where('name'.toLowerCase(), 'like', `%${name}%`)
             .offset(offset)
             .limit(limit)
             .then(donations => {
-                console.log(donations)
-                res.status(200).send(donations)
+                return res.status(200).send(donations)
             })
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
+            })
+    }
+
+    const getDonationById = async (req, res) => {
+        const idDonation = isValidId(req.params.id) && req.params.id
+        if (!idDonation) return res.status(400).send('Não foi possível localizar doação!')
+
+        await app.db('donations')
+            .first()
+            .where({ id: idDonation })
+            .then(donation => res.status(200).json(donation))
+            .catch(err => {
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send('Ocorreu um erro ao obter os dados da doação!')
             })
     }
 
     const changeStateOfDonation = async (req, res) => {
-        const donationState = req.params.state == 'true' ? 1 : 0
+        const idDonation = isValidId(req.params.id) && req.params.id
+        if (!idDonation) return res.status(400).send('Não foi possível localizar doação!')
 
-        console.log(donationState)
+        if (req.params.state != 'true' && req.params.state != 'false') return res.status(400).send('Não foi informado um estado válido para a verificação da doação!')
+        const donationReceived = req.params.state == 'true' ? 1 : 0
 
         await app.db('donations')
-            .update({ donationReceived: donationState })
-            .where({ id: req.params.id })
+            .update({ donationReceived })
+            .where({ id: idDonation })
             .then(_ => res.status(200).send())
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
             })
     }
 
     const numberOfDonationsReceived = async (req, res) => {
         const donationTypes = ['money', 'portion', 'medicines', 'others']
 
+        await res.status(200).send('test')
         let donationsReceived = await mapDonationTypes(donationTypes)
-
         donationsReceivedObject = await donationsReceived.reduce((total, current) => {
             return { ...total, ...current } // Transforma array em objeto
         }, {})
+
         await res.status(200).send(donationsReceivedObject)
     }
 
@@ -69,9 +86,8 @@ module.exports = app => {
             // .where({ donationReceived: 1 }) TODO Somente doações recebidas ou todas?
             .then(([count]) => count[donationType])
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
             })
 
         return count
@@ -80,24 +96,23 @@ module.exports = app => {
     const save = async (req, res) => {
         const { existsOrError, objectIsNull } = app.api.validation
 
-        let donation = await objectIsNull(req.body) ? res.status(400).send('Dados da doação não informados') : req.body
+        let donation = !objectIsNull(req.body) && req.body // TODO This is a only place where not use a object in the body request  
+        if (!donation) return res.status(400).send('Dados da doação não informados!')
 
-        const userId = req.user.id
-        console.log(donation)
-        donation.date = donation.data ? new Date(donation.date) : new Date()
+        const userId = isValidId(req.user.id) && req.user.id
+        if (!userId) return res.status(400).send('Não foi possível identificar seus dados!')
 
+        donation.date = donation.date ? new Date(donation.date) : new Date()
         if (!donation.donationType) donation.donationType = 'others'
 
         try {
-
             if (!donation.cellNumber || !donation.name) {
                 await app.db('users')
                     .select('name', 'cellNumber')
                     .where({ id: userId })
                     .then(([userData]) => donation = { ...donation, ...userData })
                     .catch(err => {
-                        console.log(err)
-                        app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                        showAndRegisterError(err, path.basename(__filename))
                         throw 'Ocorreu um erro ao consultar dados do usuário!'
                     })
             }
@@ -115,45 +130,45 @@ module.exports = app => {
                 .insert(donation)
                 .then(_ => res.status(204).send())
                 .catch(err => {
-                    console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                    res.status(500).send()
+                    showAndRegisterError(err, path.basename(__filename))
+                    return res.status(500).send()
                 })
         } else {
-            console.log('ToEdit')
-            console.log(donation)
             await app.db('donations')
                 .update(donation)
                 .where({ id: donation.id })
                 .then(_ => res.status(204).send())
                 .catch(err => {
-                    console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                    res.status(500).send('Erro ao cadastrar doação')
+                    showAndRegisterError(err, path.basename(__filename))
+                    return res.status(500).send('Erro ao cadastrar doação')
                 })
         }
     }
 
     const removeDonation = async (req, res) => {
-        const idDonation = req.params.id ? req.params.id : res.status(400).send('Identificação da publicação não informada')
+        const { validateRequestDataForDelete, deleteFromDatabase } = app.api.requests
 
-        let donationsId = idDonation.split(',')
+        const target = 'doação'
+        const targetTable = 'donations'
+        let validIds
 
-        donationsId.forEach(async (idDonation) => {
-            await app.db('donations')
-                .where({ id: idDonation })
-                .del()
-                .then(_ => console.log(`Doação de id: ${idDonation} deletada`))
-                .catch(err => {
-                    console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                    res.status(500).send('Ocorreu um erro ao deletar doação')
-                })
-        })
+        try {
+            validIds = await validateRequestDataForDelete(req, target)
+        } catch (err) {
+            return res.status(400).send(err)
+        }
 
-        res.status(200).send('Doações removidas com sucesso!')
+        const executed = await deleteFromDatabase(validIds, target, targetTable)
+
+        if (executed) {
+            return res.status(204).send()
+        } else {
+            return res.status(500).send(`Ocorreu um erro ao deletar ${target}!`)
+        }
     }
 
 
-    return { getDonations, changeStateOfDonation, numberOfDonationsReceived, save, removeDonation }
+    return { getDonations, getDonationById, changeStateOfDonation, numberOfDonationsReceived, save, removeDonation }
 }
+
+// 172 -> 

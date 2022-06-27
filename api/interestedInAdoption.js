@@ -29,7 +29,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -48,7 +48,7 @@ module.exports = app => {
                 })
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 })/* res.status(500).send('Não foi possível localizar usuários interessados') */
         }
         return interesteds
@@ -64,7 +64,7 @@ module.exports = app => {
                 })
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 })
         }
         return interesteds
@@ -87,7 +87,7 @@ module.exports = app => {
             existsOrError(interestedInAdoption.animalId, 'Animal não informado')
         } catch (err) {
             console.log(err)
-            app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+            // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
             return res.status(400).send(err)
         }
 
@@ -96,7 +96,7 @@ module.exports = app => {
             .then(id => res.status(200).json(id[0]))
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send('Erro ao cadastrar interesse na adoção')
             })
     }
@@ -133,7 +133,7 @@ module.exports = app => {
                 .then(_ => res.status(204).send())
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send(err)
                 })
 
@@ -147,7 +147,7 @@ module.exports = app => {
             .then(_ => res.status(204).send())
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -165,7 +165,7 @@ module.exports = app => {
                 .then(_ => console.log(`Interesse de id: ${idInterested} deletada`))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Ocorreu um erro ao deletar interesse')
                 })
 
@@ -179,7 +179,7 @@ module.exports = app => {
                 })
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     console.log('Erro ao remover imagens anteriores')
                 })
 
@@ -190,7 +190,7 @@ module.exports = app => {
                 .then(_ => console.log('Registros deletados!'))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     console.log('Erro ao remover registros anteriores')
                 })
         })
@@ -210,7 +210,7 @@ module.exports = app => {
                 console.log('Arquivo deletado com sucesso!');
             } else {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 console.log('Erro ao deletar arquivo.');
             }
         })

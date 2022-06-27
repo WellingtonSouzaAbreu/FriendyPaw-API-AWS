@@ -4,14 +4,7 @@ const https = require('https');
 const fs = require('fs')
 const port = 500
 
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0 // Permite tudo
-
 app.db = require('./config/db.js')
-
-const options = {
-    key: fs.readFileSync('certificate.key'),
-    cert: fs.readFileSync('certificate.crt')
-  };
 
 consign()
     .include('./config/passport.js')
@@ -26,6 +19,13 @@ app.get('/teste', (req, res) => {
     res.send('Conexão estabelecida')
 })
 
+const options = {
+    key: fs.readFileSync('key.pem'),
+    cert: fs.readFileSync('cert.pem')
+};
+
+console.log(options)
+
 https.createServer(options, app).listen(port, () => {
-    console.log(`Server running in port ${port}`)
+    console.log(`Server running in port ...${port}`)
 })

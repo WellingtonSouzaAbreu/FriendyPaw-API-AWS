@@ -2,6 +2,9 @@ const path = require('path')
 
 module.exports = app => {
 
+    const { showLog, showAndRegisterError } = app.api.commonFunctions
+    const { isValidId } = app.api.validation
+
     const getComplaints = async (req, res) => {
         let city = req.query.city ? req.query.city.toLowerCase() : ''
         let page = !!req.query.page ? req.query.page : 0
@@ -10,8 +13,8 @@ module.exports = app => {
         let offset = page > 0 ? (page * rowsPerPage) + 1 : page * rowsPerPage
         let limit = parseInt(rowsPerPage) + 1 // Deixar o paginator ativo
 
-        console.log(`Limit: ${limit}`)
-        console.log(`Offset: ${offset}`)
+        // showLog(`Limit: ${limit}`)
+        // showLog(`Offset: ${offset}`)
 
         await app.db('complaints')
             .where('city'.toLowerCase(), 'like', `%${city}%`)
@@ -19,34 +22,49 @@ module.exports = app => {
             .limit(limit)
             .then(complaints => res.status(200).send(complaints))
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
+            })
+    }
+
+    const getComplaintById = async (req, res) => {
+        const idComplaint = isValidId(req.params.id) && req.params.id
+        if (!idComplaint) return res.status(400).send('Não foi possível localizar denúncia!')
+
+        await app.db('complaints')
+            .first()
+            .where({ id: idComplaint })
+            .then(complaint => res.status(200).json(complaint))
+            .catch(err => {
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send('Ocorreu um erro ao obter os dados da denúncia!')
             })
     }
 
     const changeStateOfComplaint = async (req, res) => {
-        const id = req.params.id
-        const verified = req.params.state == 'true' ? 1 : 0
+        const idComplaint = isValidId(req.params.id) && req.params.id
+        if (!idComplaint) return res.status(400).send('Não foi possível localizar denúncia!')
 
-        console.log(id + ' - ' + verified)
+        if (req.params.state != 'true' && req.params.state != 'false') return res.status(400).send('Não foi informado um estado válido para a verificação de denúncia!')
+        const verified = req.params.state == 'true' ? 1 : 0
 
         await app.db('complaints')
             .update({ verified: verified })
-            .where({ id: id })
+            .where({ id: idComplaint })
             .then(_ => res.status(200).send())
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send(err)
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send(err)
             })
     }
 
     const save = async (req, res) => {
         const { existsOrError, objectIsNull } = app.api.validation
 
-        const complaint = await objectIsNull(req.body.complaint) ? res.status(400).send('Dados da denúncia não informados') : req.body.complaint
-        complaint.date = new Date()
+        const complaint = !objectIsNull(req.body.complaint) && req.body.complaint
+        if (!complaint) return res.status(400).send('Dados da denúncia não informados!')
+
+        complaint.date = complaint.date && new Date()
 
         try {
             existsOrError(complaint.description, 'Descrição não informado!')
@@ -63,31 +81,35 @@ module.exports = app => {
             .insert(complaint)
             .then(_ => res.status(204).send())
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                res.status(500).send('Erro ao cadastrar denúncia')
+                showAndRegisterError(err, path.basename(__filename))
+                return res.status(500).send('Erro ao cadastrar denúncia!')
             })
     }
 
     const removeComplaint = async (req, res) => {
-        const idComplaint = req.params.id ? req.params.id : res.status(400).send('Identificação da denúncia não informada')
+        const { validateRequestDataForDelete, deleteFromDatabase } = app.api.requests
 
-        let complaintsId = idComplaint.split(',')
+        const target = 'denúncia'
+        const targetTable = 'complaints'
+        let validIds
 
-        complaintsId.forEach(async (idComplaint) => {
-            await app.db('complaints')
-                .where({ id: idComplaint })
-                .del()
-                .then(_ => console.log(`Denúncia de id: ${idComplaint} deletada`))
-                .catch(err => {
-                    console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-                    res.status(500).send('Ocorreu um erro ao deletar Denúncia')
-                })
-        })
+        try {
+            validIds = await validateRequestDataForDelete(req, target)
+        } catch (err) {
+            return res.status(400).send(err)
+        }
 
-        res.status(200).send('Denúncias removidas com sucesso!')
+        const executed = await deleteFromDatabase(validIds, target, targetTable)
+
+        if (executed) {
+            return res.status(204).send()
+        } else {
+            return res.status(500).send(`Ocorreu um erro ao deletar ${target}!`)
+        }
     }
 
-    return { getComplaints, changeStateOfComplaint, save, removeComplaint }
+    return { getComplaints, getComplaintById, changeStateOfComplaint, save, removeComplaint }
 }
+
+
+// 93 -> 

@@ -1,68 +1,2176 @@
-{"dateTime":"2021-11-20T18:31:12.692Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:33:17.590Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2021-11-20T18:31:12.690Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+{"dateTime":"2022-03-05T19:33:17.655Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2021-11-22T18:29:21.762Z","file":"animal.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Saudável', 29, '2021-11-22 14:20:57.346', true, true, '500,00', 'Dr. Lucas') - WARN_DATA_TRUNCATED: Data truncated for column 'totalCostOfTreatment' at row 1"}
+{"dateTime":"2022-03-05T19:33:17.712Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2021-12-29T01:08:59.730Z","file":"user.js","message":"Usuário já cadastrado"}
+{"dateTime":"2022-03-05T19:33:17.785Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-01-15T17:58:51.242Z","file":"user.js","message":"Usuário já cadastrado"}
+{"dateTime":"2022-03-05T19:34:29.057Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-01-15T17:58:57.221Z","file":"user.js","message":"Usuário já cadastrado"}
+{"dateTime":"2022-03-05T19:34:29.156Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-01-15T20:03:09.335Z","file":"interestedInAdoption.js","message":"Descrição não informada"}
+{"dateTime":"2022-03-05T19:34:29.247Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-02T17:16:12.174Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:34:29.362Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-02T17:16:12.179Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:35:45.314Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-02T17:16:42.081Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:35:45.401Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-02T17:16:42.086Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:35:45.464Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-02T17:17:02.418Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:35:45.533Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-02T17:17:02.421Z","file":"adoption.js","message":"TypeError: Cannot set property 'adoptionId' of undefined"}
+{"dateTime":"2022-03-05T19:35:46.147Z","file":"veterinaryCare.js","message":"Error: update `veterinary-cares` set `needOfHospitalization` = 1, `needOfMedication` = 1, `dateOfVeterinaryCare` = '2021-11-20 00:00:00.000', `totalCostOfTreatment` = 500, `anamnese` = 'Tudo ok', `veterinaryName` = 'Lucas', `animalId` = 1, `id` = '1ss' where `id` = '1ss' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1ss'"}
 
-{"dateTime":"2022-02-03T13:24:26.926Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 10sm6636338uaq.9 - gsmtp"}
+{"dateTime":"2022-03-05T19:37:16.759Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-03T13:24:26.928Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+{"dateTime":"2022-03-05T19:37:16.846Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-03T13:31:19.598Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 17sm4328885vky.10 - gsmtp"}
+{"dateTime":"2022-03-05T19:37:16.920Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-03T13:31:19.600Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+{"dateTime":"2022-03-05T19:37:17.010Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-03T13:37:40.032Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+{"dateTime":"2022-03-05T19:37:17.613Z","file":"veterinaryCare.js","message":"Error: update `veterinary-cares` set `needOfHospitalization` = 1, `needOfMedication` = 1, `dateOfVeterinaryCare` = '2021-11-20 00:00:00.000', `totalCostOfTreatment` = 500, `anamnese` = 'Tudo ok', `veterinaryName` = 'Lucas', `animalId` = 1, `id` = '1ss' where `id` = '1ss' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1ss'"}
 
-{"dateTime":"2022-02-03T13:37:40.035Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:39:34.342Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-03T13:48:30.636Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+{"dateTime":"2022-03-05T19:39:34.429Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-03T13:48:30.638Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:39:34.498Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-03T13:52:23.078Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+{"dateTime":"2022-03-05T19:39:34.592Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-03T13:52:23.080Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:39:35.529Z","file":"veterinaryCare.js","message":"Error: update `veterinary-cares` set `needOfHospitalization` = 1, `needOfMedication` = 1, `dateOfVeterinaryCare` = '2021-11-20 00:00:00.000', `totalCostOfTreatment` = 500, `anamnese` = 'Tudo ok', `veterinaryName` = 'Lucas', `animalId` = 1, `id` = '1ss' where `id` = '1ss' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1ss'"}
 
-{"dateTime":"2022-02-03T13:57:48.853Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:40:06.225Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-03T13:58:53.260Z","file":"recoveryPassword.js","message":"Error: Authenticate"}
+{"dateTime":"2022-03-05T19:40:06.297Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-03T13:58:53.262Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:40:06.378Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-03T14:05:56.039Z","file":"recoveryPassword.js","message":"Error: Authentication Error - invalid username"}
+{"dateTime":"2022-03-05T19:40:06.468Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-03T14:05:56.041Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+{"dateTime":"2022-03-05T19:48:23.171Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-03T14:23:37.690Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor s12sm4495245vsn.29 - gsmtp"}
+{"dateTime":"2022-03-05T19:48:23.249Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-03T14:23:37.692Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+{"dateTime":"2022-03-05T19:48:23.307Z","file":"veterinaryCare.js","message":"Data não informada!"}
 
-{"dateTime":"2022-02-03T14:24:20.149Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor bc28sm6887119vkb.13 - gsmtp"}
+{"dateTime":"2022-03-05T19:48:23.416Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
 
-{"dateTime":"2022-02-03T14:24:20.151Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+{"dateTime":"2022-03-05T19:49:23.304Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
 
-{"dateTime":"2022-02-03T14:32:48.861Z","file":"recoveryPassword.js","message":"Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor k203sm6606416vka.56 - gsmtp"}
+{"dateTime":"2022-03-05T19:49:23.387Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
 
-{"dateTime":"2022-02-03T14:32:48.863Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu email!"}
+{"dateTime":"2022-03-05T19:49:23.469Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T19:49:23.541Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T19:49:24.563Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T19:50:24.330Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T19:50:24.443Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T19:50:24.522Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T19:50:24.611Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T19:52:02.416Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T19:52:02.507Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T19:52:02.592Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T19:52:02.672Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T19:53:15.333Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T19:53:15.403Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T19:53:15.485Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T19:53:15.566Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T19:53:16.659Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T19:59:40.635Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T19:59:40.696Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T19:59:40.741Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-05T19:59:40.789Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-05T19:59:40.843Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T19:59:40.884Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T19:59:40.945Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T19:59:41.003Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-05T19:59:42.648Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T19:59:42.718Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T19:59:42.784Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T19:59:42.856Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T19:59:42.937Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T19:59:45.109Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T19:59:45.173Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T19:59:45.220Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T19:59:45.276Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T19:59:46.192Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:00:56.355Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:00:56.421Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:00:56.469Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-05T20:00:56.517Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-05T20:00:56.569Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:00:56.615Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:00:56.672Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:00:56.743Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-05T20:00:58.473Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:00:58.544Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:00:58.628Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:00:58.721Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:00:58.799Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:01:02.873Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:01:02.914Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:01:02.960Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:01:03.118Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:01:04.122Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:02:30.777Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:02:30.854Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:02:30.941Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:02:31.019Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:02:31.963Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:06:41.235Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:06:41.326Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:06:41.400Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:06:41.464Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:06:42.498Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:07:51.874Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:07:51.950Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:07:52.034Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:07:52.121Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:07:53.055Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:09:03.959Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:09:04.034Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:09:04.115Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:09:04.195Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:09:05.349Z","file":"veterinaryCare.js","message":"Error: insert into `veterinary-cares` (`anamnese`, `animalId`, `dateOfVeterinaryCare`, `id`, `needOfHospitalization`, `needOfMedication`, `totalCostOfTreatment`, `veterinaryName`) values ('Tudo ok', 1, '2021-11-20 00:00:00.000', 1, 1, 1, 500, 'Lucas') - ER_DUP_ENTRY: Duplicate entry '1' for key 'veterinary-cares.PRIMARY'"}
+
+{"dateTime":"2022-03-05T20:10:25.634Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:10:25.739Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:10:25.818Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:10:25.911Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:11:06.978Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:11:07.077Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:11:07.169Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:11:07.246Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:11:30.950Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:11:31.003Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:11:31.055Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-05T20:11:31.096Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-05T20:11:31.143Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:11:31.187Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:11:31.233Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:11:31.286Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-05T20:11:32.931Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:11:32.974Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:11:33.025Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:11:33.075Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:11:33.120Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:11:34.738Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:11:34.784Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:11:34.838Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:11:34.878Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-05T20:18:01.304Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:18:01.357Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:18:01.413Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-05T20:18:01.452Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-05T20:18:01.507Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:18:01.557Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:18:01.600Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:18:01.659Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-05T20:18:03.484Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-05T20:18:03.536Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-05T20:18:03.586Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-05T20:18:03.635Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-05T20:18:03.684Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-05T20:18:06.618Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-05T20:18:06.676Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-05T20:18:06.715Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-05T20:18:06.757Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-07T15:04:31.711Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:07:31.162Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:07:58.705Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:08:53.125Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:09:19.637Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:11:01.648Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:12:59.909Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:13:00.377Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:19:59.326Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:21:07.219Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:23:10.643Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`) values ('Gabriel', 'esr', '69984465997', '2021-11-20 00:00:00.000') - ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'esr' for column 'animalId' at row 1"}
+
+{"dateTime":"2022-03-07T15:23:10.966Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:23:28.483Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:33:28.321Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:34:36.117Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:35:18.539Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:36:09.718Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:37:00.563Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:37:01.025Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:37:31.743Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:49:00.824Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:50:29.622Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:51:25.678Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:52:10.748Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T15:54:33.413Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T16:00:29.251Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T16:02:04.921Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-07T16:02:04.960Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-07T16:02:05.007Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-07T16:02:05.058Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-07T16:02:05.104Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-07T16:02:05.154Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-07T16:02:05.195Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-07T16:02:05.256Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-07T16:02:07.093Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-07T16:02:07.168Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-07T16:02:07.243Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-07T16:02:07.336Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-07T16:02:07.435Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-07T16:02:10.485Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T16:02:15.279Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-07T16:02:15.337Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-07T16:02:15.375Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-07T16:02:15.419Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-07T16:04:28.932Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-07T16:04:28.987Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-07T16:04:29.033Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-07T16:04:29.086Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-07T16:04:34.820Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-07T16:04:34.912Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-07T16:04:35.031Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-07T16:04:35.103Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-07T16:04:35.176Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-07T16:04:35.248Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-07T16:04:35.331Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-07T16:04:35.440Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-07T16:04:38.432Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-07T16:04:38.510Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-07T16:04:38.578Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-07T16:04:38.650Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-07T16:04:38.728Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-07T16:04:43.913Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-07T19:34:23.611Z","file":"rescue.js","message":"Data não informado"}
+
+{"dateTime":"2022-03-07T19:59:43.194Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T19:59:43.415Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T19:59:43.515Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T19:59:43.738Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:01:10.417Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:01:10.594Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:01:10.669Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:01:10.821Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:03:51.646Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:03:51.892Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:03:51.988Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:03:52.085Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:03:52.183Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:05:02.251Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:05:02.525Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:05:02.632Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:05:02.744Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:05:02.859Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:06:50.921Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:06:51.186Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:06:51.260Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:06:51.350Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:06:51.433Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:07:57.910Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:07:58.132Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:07:58.255Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:07:58.357Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:07:58.477Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:09:34.829Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:09:35.029Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:09:35.189Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:09:35.803Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:10:57.780Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:10:58.026Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:10:58.139Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:10:58.358Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:10:58.507Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:11:34.891Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:11:35.048Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:11:35.149Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:11:35.356Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:11:35.441Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:12:43.189Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:12:43.328Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:12:43.405Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:12:43.565Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:12:43.643Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:13:42.981Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:13:43.199Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:13:43.284Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:13:43.485Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:13:43.575Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:13:43.690Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:15:02.990Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:15:03.152Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:15:03.245Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:15:03.542Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:15:03.668Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:15:03.801Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:16:26.211Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:16:26.395Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:16:26.509Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:16:26.758Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:16:26.860Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:16:26.967Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:17:18.851Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:17:19.012Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:17:19.091Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:17:19.257Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:17:19.429Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:17:19.527Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:18:49.857Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:18:50.017Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:18:50.103Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:18:50.291Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:18:50.482Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:18:50.603Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:19:39.827Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:19:39.959Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:19:40.036Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:19:40.119Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:19:40.204Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:19:40.429Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:20:12.879Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:20:13.025Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:20:13.112Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:20:13.280Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:20:13.354Z","file":"rescue.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-07T20:20:13.582Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:21:44.912Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:21:45.049Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:21:45.140Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:21:45.305Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:21:45.475Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:21:45.581Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:22:01.849Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:02.100Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:22:02.302Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:22:02.589Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:02.723Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:02.879Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:22:35.940Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:36.111Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:22:36.228Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:22:36.440Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:36.623Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:22:36.725Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:28:48.408Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:28:48.716Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:28:48.819Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:28:49.087Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:28:49.404Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:28:49.575Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:29:12.172Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:12.366Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:29:12.442Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:29:12.620Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:12.800Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:12.899Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:29:26.847Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:27.032Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:29:27.127Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:29:27.397Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:27.598Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:29:27.671Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:31:47.518Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:31:47.668Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:31:47.740Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:31:47.817Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:31:59.212Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:31:59.516Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:31:59.601Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:31:59.718Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:34:50.865Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:34:50.964Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:34:51.320Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:34:51.504Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:34:51.572Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:35:03.911Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:35:04.037Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:35:04.279Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:35:04.493Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:35:04.588Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:35:34.016Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:35:34.129Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:35:34.255Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:35:46.658Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:35:46.787Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:35:46.905Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:36:00.914Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:36:01.041Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:36:01.148Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:36:16.364Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:36:16.524Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:36:16.631Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:37:54.341Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:37:54.482Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:37:54.568Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:37:54.648Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:39:46.328Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:39:46.463Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:39:46.539Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:40:18.904Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? and `animalId` = ?"}
+
+{"dateTime":"2022-03-07T20:40:19.029Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:40:19.104Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:40:19.199Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:42:25.328Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:42:25.397Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:42:25.468Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:43:05.791Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:43:05.877Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:43:05.942Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:44:47.874Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ?"}
+
+{"dateTime":"2022-03-07T20:44:48.014Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:44:48.084Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:44:48.146Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:45:18.491Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? and `animalId` = ?"}
+
+{"dateTime":"2022-03-07T20:45:18.594Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:45:18.659Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:45:18.719Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:46:57.231Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:46:57.388Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:46:57.489Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:46:57.611Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:47:51.720Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:47:51.871Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:47:51.960Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:47:52.043Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:49:17.773Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update `rescues` set `forwardedToKennel` = ?, `policeSupport` = ?, `locale` = ?, `BONumber` = ?, `address` = ?, `dateOfRescue` = ?, `veterinaryCareId` = ?, `animalId` = ? where `id` = ? or (`animalId` = ?)"}
+
+{"dateTime":"2022-03-07T20:49:17.870Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:49:17.938Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:49:18.003Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:50:33.080Z","file":"rescue.js","message":"Error: Undefined binding(s) detected when compiling WHERE. Undefined column(s): [id] query: where `id` = ?"}
+
+{"dateTime":"2022-03-07T20:50:33.201Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:50:33.277Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:50:33.353Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:51:40.003Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:51:40.081Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:51:41.122Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-07T20:51:59.691Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-07T20:51:59.768Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-07T20:52:00.520Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-08T19:17:28.291Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-08T19:17:28.352Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-08T19:17:28.441Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-08T19:17:28.398Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-08T19:17:28.496Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-08T19:17:28.534Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-08T19:17:28.579Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-08T19:17:28.625Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-08T19:17:30.477Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-08T19:17:30.531Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-08T19:17:30.585Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-08T19:17:30.629Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-08T19:17:30.681Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-08T19:17:33.066Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-08T19:17:33.124Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-08T19:17:33.174Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:17:33.226Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-08T19:17:37.230Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-08T19:17:37.324Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-08T19:17:39.115Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.005Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.049Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.096Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:17:42.140Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.594Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-08T19:17:42.674Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.725Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.769Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:17:42.810Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:17:42.854Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:22:42.718Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:22:42.853Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:22:42.934Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:22:43.000Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:22:43.353Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-08T19:22:43.491Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:22:43.582Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:22:43.670Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:22:43.769Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:22:43.845Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:24:48.262Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:24:48.374Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:24:48.474Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:24:48.581Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:24:49.656Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-20 00:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-03-08T19:24:49.808Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:24:49.916Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:24:50.022Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:24:50.113Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:24:50.193Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:26:40.169Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:26:40.251Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:26:40.333Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:26:40.414Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:26:40.952Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:26:41.050Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:26:41.144Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:26:41.233Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:26:41.354Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:27:06.372Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-08T19:27:06.424Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-08T19:27:06.493Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-08T19:27:06.530Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-08T19:27:06.592Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-08T19:27:06.674Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-08T19:27:06.731Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-08T19:27:06.798Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-08T19:27:08.804Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-08T19:27:08.971Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-08T19:27:09.081Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-08T19:27:09.187Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-08T19:27:09.247Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-08T19:27:11.434Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:27:11.487Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:27:11.545Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:27:11.587Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:27:12.143Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:27:12.236Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-08T19:27:12.337Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:27:12.407Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:27:12.474Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-08T19:27:16.233Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-08T19:27:16.368Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-08T19:27:17.533Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-08T19:27:19.812Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-08T19:27:19.895Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-08T19:27:20.000Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-08T19:27:20.075Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-08T20:07:07.261Z","file":"collaborator.js","message":"Nome não infomado"}
+
+{"dateTime":"2022-03-08T20:07:07.358Z","file":"collaborator.js","message":"Cidade não infomada"}
+
+{"dateTime":"2022-03-08T20:07:07.432Z","file":"collaborator.js","message":"Celular não infomado"}
+
+{"dateTime":"2022-03-08T20:07:07.504Z","file":"collaborator.js","message":"Data de nascimento não infomada"}
+
+{"dateTime":"2022-03-08T20:09:09.527Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-08T20:09:09.640Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-08T20:09:09.709Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-08T20:09:09.769Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-08T20:09:43.123Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-08T20:09:43.202Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-08T20:09:43.263Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-08T20:09:43.330Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-08T20:15:25.759Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-08T20:15:25.858Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-08T20:15:25.934Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-08T20:15:26.020Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T13:49:43.273Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T13:49:43.415Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T13:49:43.542Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T13:49:43.650Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T13:52:46.634Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T13:52:46.739Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T13:52:46.819Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T13:52:46.897Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T13:53:40.489Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T13:53:40.576Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T13:53:40.651Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T13:53:40.720Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T13:54:54.084Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T13:54:54.157Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T13:54:54.225Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T13:54:54.306Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T13:56:03.401Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T13:56:03.480Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T13:56:03.537Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T13:56:03.596Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:01:38.096Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:01:38.204Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:01:38.264Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:01:38.368Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:02:11.341Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:02:11.419Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:02:11.478Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:02:11.557Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:02:46.521Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:02:46.602Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:02:46.673Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:02:46.748Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:03:28.506Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:03:28.581Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:03:28.642Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:03:28.703Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:03:56.304Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:03:56.380Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:03:56.458Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:03:56.529Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:07:39.411Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:07:39.516Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:07:39.594Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:07:39.674Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:07:41.395Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:07:41.518Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:07:41.585Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:07:41.655Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:08:38.693Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:08:38.766Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:08:38.831Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:08:38.884Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:08:40.067Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:08:40.342Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:08:40.451Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:08:40.603Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:09:55.847Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:09:55.921Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:09:55.982Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:09:56.048Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:09:57.738Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:09:57.799Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:09:57.867Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:09:57.951Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:14:38.672Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:14:38.825Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:14:38.935Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:14:39.059Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:14:40.710Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:14:40.811Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:14:40.939Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:14:41.079Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:18:35.732Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:18:35.820Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:18:35.919Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:18:36.069Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:18:36.542Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:18:36.665Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:18:36.843Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:19:10.491Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:19:10.597Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:19:10.694Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:19:10.773Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:19:15.891Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:19:15.954Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:19:16.021Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:19:16.131Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:21:13.796Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:21:13.895Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:21:14.012Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:21:14.130Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:21:16.052Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:21:16.169Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:21:16.290Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:21:16.425Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:16.990Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:17.084Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:17.201Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:17.297Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:20.130Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:20.214Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:20.287Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:20.363Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:54.592Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:54.689Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:54.759Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:54.834Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:55.028Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:55.101Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:23:55.199Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:23:55.313Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:25:21.688Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:25:21.768Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:25:21.835Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:25:21.896Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:25:23.583Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:25:23.655Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:25:23.730Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:25:23.803Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:26:02.742Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:26:02.870Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:26:02.965Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:26:03.037Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:26:07.735Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:26:07.824Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:26:07.903Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:26:07.982Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:26:12.794Z","file":"collaborator.js","message":"Error: delete from `collaborators` where `id` = 'x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'x'"}
+
+{"dateTime":"2022-03-09T14:28:05.988Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:28:06.078Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:28:06.141Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:28:06.204Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:28:09.021Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:28:09.107Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:28:09.182Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:28:09.255Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:28:12.539Z","file":"collaborator.js","message":"Error: delete from `collaborators` where `id` = 'x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'x'"}
+
+{"dateTime":"2022-03-09T14:29:23.038Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:29:23.120Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:29:23.190Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:29:23.261Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:29:25.027Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:29:25.178Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:29:25.112Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:29:25.264Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:29:26.695Z","file":"collaborator.js","message":"Error: insert into `collaborators` (`cellNumber`, `city`, `dateOfBirth`, `id`, `name`) values ('69984565241', 'Rolim de Moura', '2000-11-20 00:00:00.000', 1, 'Lucas Martins') - ER_DUP_ENTRY: Duplicate entry '1' for key 'collaborators.PRIMARY'"}
+
+{"dateTime":"2022-03-09T14:31:01.820Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:31:01.949Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:31:02.074Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:31:02.189Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:31:02.442Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:31:02.536Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:31:02.663Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:31:02.822Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:33:18.444Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:33:18.532Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:33:18.612Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:33:18.677Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:33:19.960Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:33:20.071Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:33:20.175Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:33:20.310Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:55:29.867Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:55:29.978Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:55:30.057Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:55:30.134Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:55:30.979Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:55:31.046Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:55:31.122Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:55:31.203Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:56:18.517Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:56:18.599Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:56:18.678Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:56:18.748Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:56:19.248Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:56:19.311Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:56:19.377Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:56:19.440Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:59:07.440Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:59:07.534Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:59:07.606Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:59:07.670Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T14:59:08.321Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T14:59:08.387Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T14:59:08.452Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T14:59:08.523Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:00:57.668Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:00:57.775Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:00:57.845Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:00:57.915Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:00:58.069Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:00:58.145Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:00:58.210Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:00:58.294Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:01:52.778Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:01:52.871Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:01:52.930Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:01:53.009Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:01:53.670Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:01:53.748Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:01:53.816Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:01:53.893Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:13.652Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:13.774Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:13.857Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:13.927Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:15.466Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:15.542Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:15.610Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:15.723Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:51.912Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:52.027Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:52.107Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:52.170Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:52.526Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:52.609Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:02:52.686Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:02:52.769Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:05:26.593Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:05:26.695Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:05:26.766Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:05:26.829Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:05:27.728Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:05:27.799Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:05:27.860Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:05:27.939Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:07:19.335Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:07:19.409Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:07:19.476Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:07:19.544Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:07:20.167Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:07:20.228Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:07:20.331Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:07:20.409Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:10:45.032Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:10:45.108Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:10:45.179Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:10:45.257Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:10:46.197Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:10:46.284Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:10:46.365Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:10:46.437Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:13:09.942Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:13:10.050Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:13:10.116Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:13:10.173Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:13:10.757Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:13:10.827Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:13:10.899Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:13:10.966Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:17:30.257Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:17:30.336Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:17:30.398Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:17:30.455Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:17:31.835Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:17:31.928Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:17:32.021Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:17:32.136Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:22:58.556Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:22:58.634Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:22:58.692Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:22:58.756Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:23:03.846Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:23:03.906Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:23:03.967Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:23:04.024Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:08.241Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:08.334Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:08.432Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:08.511Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:09.145Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:09.221Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:09.300Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:09.378Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:32.522Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:32.597Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:32.657Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:32.722Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:33.382Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:33.467Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:24:33.535Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:24:33.609Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:26:01.741Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:26:01.835Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:26:01.927Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:26:02.000Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:26:02.519Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:26:02.594Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:26:02.664Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:26:02.740Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:27:16.907Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-09T15:27:16.955Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-09T15:27:17.116Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-09T15:27:17.023Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-09T15:27:17.068Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-09T15:27:17.180Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-09T15:27:17.227Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-09T15:27:17.288Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-09T15:27:18.958Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-09T15:27:19.018Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-09T15:27:19.082Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-09T15:27:19.130Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-09T15:27:19.194Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-09T15:27:21.431Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:27:21.491Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:27:21.538Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:27:21.716Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:27:22.172Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:27:22.226Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:27:22.280Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:27:22.336Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:27:24.952Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-09T15:27:24.983Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-09T15:27:26.056Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.081Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.131Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.190Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-09T15:27:29.238Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.598Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.648Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.703Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-09T15:27:29.746Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-09T15:27:29.786Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-09T15:27:32.114Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-09T15:27:32.160Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-09T15:27:32.214Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-09T15:27:32.264Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-09T15:31:47.823Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:31:47.913Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:31:47.985Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:31:48.056Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T15:31:49.214Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T15:31:49.397Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T15:31:49.507Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T15:31:49.584Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T16:25:49.621Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T16:25:49.729Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T16:25:49.825Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T16:25:49.897Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T16:25:51.838Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T16:25:51.958Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T16:25:52.064Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T16:25:52.321Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T16:32:35.847Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T16:32:35.907Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T16:32:35.959Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T16:32:36.021Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-09T16:32:36.572Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-09T16:32:36.624Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-09T16:32:36.683Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-09T16:32:36.745Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-11T12:15:42.651Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-11T12:15:42.693Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-11T12:15:42.769Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-11T12:15:42.818Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-11T12:15:42.874Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-11T12:15:42.920Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-11T12:15:42.966Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-11T12:15:43.029Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-11T12:15:44.998Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-11T12:15:45.055Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-11T12:15:45.111Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-11T12:15:45.163Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-11T12:15:45.214Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-11T12:15:48.235Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-11T12:15:48.300Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-11T12:15:48.351Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-11T12:15:48.399Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-11T12:15:48.843Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-11T12:15:48.899Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-11T12:15:48.957Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-11T12:15:49.019Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-11T12:15:52.391Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-11T12:15:52.428Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-11T12:15:52.464Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-11T12:15:52.496Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-11T12:15:53.259Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-11T12:15:53.299Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-11T12:15:53.359Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-11T12:15:53.402Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-11T12:15:53.456Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-11T12:15:56.326Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-11T12:15:56.388Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-11T12:15:57.775Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-11T12:16:03.290Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-11T12:16:03.343Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-11T12:16:03.403Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-11T12:16:03.448Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-11T13:25:32.397Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:25:32.340', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:28:58.784Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:28:58.715', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:31:37.042Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:31:36.970', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:31:37.372Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `di`, `district`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:31:37.277', 'Agressão', 1, 'Centro', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'di' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:32:46.205Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:32:46.139', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:32:46.354Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `di`, `district`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:32:46.319', 'Agressão', 1, 'Centro', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'di' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:33:47.899Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:33:47.840', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:33:48.136Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `di`, `district`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:33:48.093', 'Agressão', 1, 'Centro', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'di' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:34:04.878Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:34:04.812', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:34:05.111Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `di`, `district`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:34:05.014', 'Agressão', 1, 'Centro', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'di' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:35:15.494Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:35:15.409', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:35:36.432Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:35:36.372', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:35:49.253Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:35:49.187', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:36:25.231Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:36:25.170', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T13:37:23.122Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-11 10:37:23.056', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-11T15:44:24.882Z","file":"donation.js","message":"Error: update `donations` set `donationReceived` = 1 where `id` = '1x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1x'"}
+
+{"dateTime":"2022-03-11T15:45:45.169Z","file":"donation.js","message":"Error: update `donations` set `donationReceived` = 1 where `id` = '1x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1x'"}
+
+{"dateTime":"2022-03-16T13:10:51.687Z","file":"remoteMonitoring.js","message":"Error: delete from `remote-monitorings` where `id` = 'x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'x'"}
+
+{"dateTime":"2022-03-16T13:10:52.651Z","file":"remoteMonitoring.js","message":"Error: delete from `remote-monitorings` where `id` = '1x' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '1x'"}
+
+{"dateTime":"2022-03-16T13:10:53.106Z","file":"remoteMonitoring.js","message":"Error: delete from `remote-monitorings` where `id` = 'y' - ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'y'"}
+
+{"dateTime":"2022-03-16T13:10:53.222Z","file":"remoteMonitoring.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-16T13:10:53.172Z","file":"remoteMonitoring.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-16T13:30:22.858Z","file":"requests.js","message":"Error: delete from `remote-monitoring` where `id` = '1' - ER_NO_SUCH_TABLE: Table 'friend_paw_test.remote-monitoring' doesn't exist"}
+
+{"dateTime":"2022-03-16T13:30:23.040Z","file":"requests.js","message":"Error: delete from `remote-monitoring` where `id` = '1' - ER_NO_SUCH_TABLE: Table 'friend_paw_test.remote-monitoring' doesn't exist"}
+
+{"dateTime":"2022-03-16T13:53:10.330Z","file":"requests.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-16T13:55:04.647Z","file":"requests.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-16T15:50:35.899Z","file":"requests.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-16T15:50:35.933Z","file":"requests.js","message":"Error: ENOENT: no such file or directory, unlink 'C:\\Users\\welli\\My Things\\PataAmiga\\API\\_remoteMonitoringPictures\\test.txt'"}
+
+{"dateTime":"2022-03-19T13:22:56.337Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-19T13:22:56.431Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-19T13:22:56.557Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-19T13:22:56.728Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-19T13:22:57.671Z","file":"collaborator.js","message":"Nome não infomado!"}
+
+{"dateTime":"2022-03-19T13:22:57.766Z","file":"collaborator.js","message":"Cidade não infomada!"}
+
+{"dateTime":"2022-03-19T13:22:57.861Z","file":"collaborator.js","message":"Celular não infomado!"}
+
+{"dateTime":"2022-03-19T13:22:57.938Z","file":"collaborator.js","message":"Data de nascimento não infomada!"}
+
+{"dateTime":"2022-03-19T13:23:06.771Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-03-19 10:23:06.714', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-03-19T13:23:18.443Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-19T13:23:18.496Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-19T13:23:18.604Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-03-19T13:23:18.544Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-03-19T13:23:18.703Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-19T13:23:18.816Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-19T13:23:18.916Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-19T13:23:19.002Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-03-19T13:23:23.618Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-03-19T13:23:23.697Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-03-19T13:23:23.800Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-03-19T13:23:23.900Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-03-19T13:23:24.002Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-03-19T13:23:30.082Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-19T13:23:30.171Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-19T13:23:30.257Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-19T13:23:30.334Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-19T13:23:32.013Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-03-19T13:23:32.191Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-19T13:23:32.116Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-03-19T13:23:32.386Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-19T13:23:32.490Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-03-19T13:23:42.939Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-03-19T13:23:43.016Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-03-19T13:23:43.187Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-03-19T13:23:43.686Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-03-19T13:23:56.960Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-03-19T13:23:57.067Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-03-19T13:24:00.140Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-03-19T14:50:05.618Z","file":"recoveryPassword.js","message":"Error: The 'To' number 69992846582 is not a valid phone number."}
+
+{"dateTime":"2022-03-19T14:50:05.657Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-03-19T14:51:24.037Z","file":"recoveryPassword.js","message":"Error: The 'To' number 69992846582 is not a valid phone number."}
+
+{"dateTime":"2022-03-19T14:51:24.077Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-03-19T14:51:55.148Z","file":"recoveryPassword.js","message":"Error: The 'To' number 69992846582 is not a valid phone number."}
+
+{"dateTime":"2022-03-19T14:51:55.174Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-03-19T14:55:23.079Z","file":"recoveryPassword.js","message":"Error: The 'To' number 69992846582 is not a valid phone number."}
+
+{"dateTime":"2022-03-19T14:55:23.119Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-03-19T14:55:49.824Z","file":"recoveryPassword.js","message":"Error: The 'To' number 69992846582 is not a valid phone number."}
+
+{"dateTime":"2022-03-19T14:55:49.844Z","file":"recoveryPassword.js","message":"Houve um erro ao enviar mensagem de recuperação para o seu celular!"}
+
+{"dateTime":"2022-04-02T13:48:54.686Z","file":"complaint.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:49:02.484Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:49:27.781Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:49:34.110Z","file":"complaint.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:49:44.140Z","file":"complaint.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:55:20.123Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:55:20.314Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T13:55:20.413Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T13:55:20.471Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T13:55:20.528Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T13:55:20.593Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T13:55:20.663Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T13:55:20.731Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T13:55:25.346Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:55:30.811Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:56:14.329Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:56:19.209Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:56:19.339Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:56:19.387Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:56:19.430Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-04-02T13:56:19.475Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:56:24.325Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:56:24.598Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:56:24.655Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:56:24.709Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-04-02T13:56:24.761Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:56:24.824Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:56:29.543Z","file":"temporaryHome.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:57:06.714Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:57:06.890Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T13:57:06.941Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T13:57:07.028Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T13:57:07.093Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T13:57:07.147Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T13:57:07.198Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T13:57:07.249Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T13:57:11.878Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:57:17.329Z","file":"user.js","message":"Error: connect ETIMEDOUT"}
+
+{"dateTime":"2022-04-02T13:58:23.970Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T13:58:24.027Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T13:58:24.099Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T13:58:24.154Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T13:58:24.256Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T13:58:24.196Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T13:58:24.308Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T13:58:24.381Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-04-02T13:58:26.224Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T13:58:26.282Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T13:58:26.342Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T13:58:26.457Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T13:58:26.556Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T13:58:29.223Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:58:29.283Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:58:29.343Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-04-02T13:58:29.400Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:58:30.075Z","file":"temporaryHome.js","message":"Nome do adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:58:30.135Z","file":"temporaryHome.js","message":"Celular adotante não informado!"}
+
+{"dateTime":"2022-04-02T13:58:30.191Z","file":"temporaryHome.js","message":"Data não informada!"}
+
+{"dateTime":"2022-04-02T13:58:30.240Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:58:30.288Z","file":"temporaryHome.js","message":"Animal não informado!"}
+
+{"dateTime":"2022-04-02T13:58:30.399Z","file":"temporaryHome.js","message":"Error: insert into `temporary-homes` (`adopterName`, `animalId`, `cellNumber`, `date`, `id`) values ('Gabriel', 1, '69984465997', '2021-11-19 23:00:00.000', 1) - ER_DUP_ENTRY: Duplicate entry '1' for key 'temporary-homes.PRIMARY'"}
+
+{"dateTime":"2022-04-02T13:58:41.912Z","file":"complaint.js","message":"Error: insert into `complaints` (`address`, `city`, `complaintType`, `date`, `description`, `district`, `fruit`, `locale`, `verified`) values ('Av. das Flores', 'Novo Horizonte', 'Maus tratos', '2022-04-02 09:58:41.881', 'Agressão', 'Centro', 'apple', 'Casa', 0) - ER_BAD_FIELD_ERROR: Unknown column 'fruit' in 'field list'"}
+
+{"dateTime":"2022-04-02T13:58:45.474Z","file":"veterinaryCare.js","message":"Nome do veterinário não informado!"}
+
+{"dateTime":"2022-04-02T13:58:45.528Z","file":"veterinaryCare.js","message":"Custo total do tratamento não informado!"}
+
+{"dateTime":"2022-04-02T13:58:45.580Z","file":"veterinaryCare.js","message":"Data não informada!"}
+
+{"dateTime":"2022-04-02T13:58:45.633Z","file":"veterinaryCare.js","message":"Informe um valor numérico nos custos veterinários!"}
+
+{"dateTime":"2022-04-02T13:58:51.480Z","file":"rescue.js","message":"Data não informado!"}
+
+{"dateTime":"2022-04-02T13:58:51.531Z","file":"rescue.js","message":"Endereço não informado!"}
+
+{"dateTime":"2022-04-02T13:58:51.747Z","file":"rescue.js","message":"Cuidado veterinário não informado!"}
+
+{"dateTime":"2022-04-02T14:00:33.109Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T14:00:33.201Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:00:33.311Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T14:00:33.396Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T14:00:33.477Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T14:00:33.566Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T14:00:33.681Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T14:00:33.798Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-04-02T14:00:35.791Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T14:00:35.862Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:00:35.981Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T14:00:36.179Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T14:00:36.298Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T14:05:53.849Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T14:05:53.952Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:05:54.067Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T14:05:54.169Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T14:05:54.328Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T14:05:54.441Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T14:05:54.559Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T14:05:54.702Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-04-02T14:05:57.236Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T14:05:57.400Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:05:57.521Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T14:05:57.600Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-04-02T14:05:57.835Z","file":"user.js","message":"Por favor, insira um email válido!"}
+
+{"dateTime":"2022-04-02T14:29:42.520Z","file":"user.js","message":"TypeError: Cannot read property 'match' of undefined"}
+
+{"dateTime":"2022-04-02T14:33:24.859Z","file":"user.js","message":"TypeError: Cannot read property 'match' of undefined"}
+
+{"dateTime":"2022-04-02T14:34:56.685Z","file":"user.js","message":"Usuário já cadastrado!"}
+
+{"dateTime":"2022-04-02T14:36:11.435Z","file":"user.js","message":"Nome não informado!"}
+
+{"dateTime":"2022-04-02T14:36:14.674Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T14:36:19.244Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T14:36:22.933Z","file":"user.js","message":"Confirmação de senha não informada!"}
+
+{"dateTime":"2022-04-02T14:36:33.802Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:36:44.901Z","file":"user.js","message":"Celular não informado!"}
+
+{"dateTime":"2022-04-02T14:36:49.518Z","file":"user.js","message":"Senha não informada!"}
+
+{"dateTime":"2022-04-02T14:36:52.709Z","file":"user.js","message":"Senha muito curta! Ela deve ter no mínimo 8 caracteres!"}
+
+{"dateTime":"2022-04-02T14:36:56.323Z","file":"user.js","message":"Senhas não conferem!"}
+
+{"dateTime":"2022-06-27T21:32:28.847Z","file":"user.js","message":"Confirmação de senha não informada!"}
 

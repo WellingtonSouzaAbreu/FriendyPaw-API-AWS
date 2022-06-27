@@ -17,7 +17,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -29,7 +29,7 @@ module.exports = app => {
             .then(imagesURL => imagesURL)
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 throw err
             })
     }
@@ -39,7 +39,7 @@ module.exports = app => {
             .then(publications => res.status(200).send(publications))
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -65,7 +65,7 @@ module.exports = app => {
             .then(publications => res.status(200).send(publications))
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -73,7 +73,7 @@ module.exports = app => {
     const getEvents = async (req, res) => {
         await app.db('publications')
             .where({ publicationType: 'event' })
-            .where('startDateTime', '>', new Date(new Date().getTime() - 3600000))
+            .where('endDateTime', '>', new Date(new Date().getTime() - 3600000))
             .orderBy('startDateTime')
             .then(async events => {
                 console.log(events)
@@ -82,7 +82,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -98,7 +98,7 @@ module.exports = app => {
         await app.db('publications')
             .select('id', 'title', 'startDateTime', 'history', 'reasonRescue', 'animalName')
             .where({ publicationType: 'done' })
-            .where('startDateTime', '>', new Date(new Date().getTime() - 3600000))
+            .where('endDateTime', '>', new Date(new Date().getTime() - 3600000))
             .orderBy('startDateTime')
             .then(async dones => {
                 dones = await browseDones(dones)
@@ -107,7 +107,7 @@ module.exports = app => {
             })
             .catch(err => {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 res.status(500).send(err)
             })
     }
@@ -155,7 +155,7 @@ module.exports = app => {
                 .then(id => res.status(200).json(id[0]))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Erro ao cadastrar publicação')
                 })
         } else {
@@ -165,7 +165,7 @@ module.exports = app => {
                 .then(id => res.status(200).json(publication.id))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Erro ao cadastrar publicação')
                 })
         }
@@ -213,7 +213,7 @@ module.exports = app => {
                             .then(_ => console.log('Registros deletados!'))
                             .catch(err => {
                                 console.log(err)
-                                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                                 console.log('Erro ao remover registros anteriores')
                             })
                         console.log('Registros anteriores deletados')
@@ -225,13 +225,13 @@ module.exports = app => {
                         .then(_ => res.status(204).send())
                         .catch(err => {
                             console.log(err)
-                            app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                            // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                             res.status(500).send(err)
                         })
                 })
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 })
         })
     }
@@ -248,7 +248,7 @@ module.exports = app => {
                 console.log('Arquivo deletado com sucesso!');
             } else {
                 console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                 console.log('Erro ao deletar arquivo.');
             }
         })
@@ -266,7 +266,7 @@ module.exports = app => {
                 .then(_ => console.log(`Publicação de id: ${idPublication} deletada`))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     res.status(500).send('Ocorreu um erro ao deletar publicação')
                 })
 
@@ -280,7 +280,7 @@ module.exports = app => {
                 })
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     console.log('Erro ao remover imagens anteriores')
                 })
 
@@ -291,7 +291,7 @@ module.exports = app => {
                 .then(_ => console.log('Registros deletados!'))
                 .catch(err => {
                     console.log(err)
-                    app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                    // // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                     console.log('Erro ao remover registros anteriores')
                 })
         })

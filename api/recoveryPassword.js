@@ -2,19 +2,18 @@ const path = require('path')
 const baseApiUrl = 'http://18.228.220.101:500'
 
 module.exports = app => {
+    const { showAndRegisterError } = require('./commonFunctions.js')
     const jwt = require('jwt-simple')
     const { authSecret } = require('./../config/.env')
     const bcrypt = require('bcrypt-nodejs')
 
     const generateStaticPage = async (req, res) => {
 
-        console.log(req.body)
-
         const user = await getUserLoginAccess(req.body.user)
 
         if (!user) {
-            console.log('Usuário não encontrado')
-            return res.status(400).send('Usuário não encontrado')
+            console.log('Usuário não encontrado!')
+            return res.status(400).send('Usuário não encontrado!')
         }
 
         console.log(user)
@@ -74,7 +73,7 @@ module.exports = app => {
                             })
                             .catch(err => {
                                 console.log(err)
-                                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                                 window.alert('Erro ao alterar senha!')
                             })
                     }
@@ -111,7 +110,7 @@ module.exports = app => {
                             })
                             .catch(err => {
                                 console.log(err)
-                                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                                // app.api.bugReport.writeInBugReport(err, path.basename(__filename))
                                 window.alert('Erro ao alterar senha!')
                             })
                     }
@@ -135,21 +134,20 @@ module.exports = app => {
                 if (await sendEmail(user.email, url)) {
                     return res.status(200).send({ recoveryType: 'email' })
                 } else {
-                    throw 'Houve um erro ao enviar mensagem de recuperação para o seu email!'
+                    throw 'Houve um erro ao enviar mensagem de recuperação para o seu email. Verifique se o email informado está correto e tente novamente!'
                 }
             } else {
                 console.log('Número de telefone válido!')
                 if (await sendSms(user.cellNumber, url)) {
                     return res.status(200).send({ recoveryType: 'cellNumber' })
                 } else {
-                    throw 'Houve um erro ao enviar mensagem de recuperação para o seu celular!'
+                    throw 'Houve um erro ao enviar mensagem de recuperação para o seu celular. Verifique se o telefone informado está correto e tente novamente!'
                 }
             }
 
         } catch (err) {
-            console.log(err)
-            app.api.bugReport.writeInBugReport(err, path.basename(__filename))
-            res.status(500).send(err)
+            showAndRegisterError(err,  path.basename(__filename))
+            return res.status(500).send(err)
         }
     }
 
@@ -162,12 +160,11 @@ module.exports = app => {
                 return user
             })
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                 showAndRegisterError(err,  path.basename(__filename))
             })
     }
 
-    const generateToken = (user) => {
+    const generateToken = async (user) => {
         return jwt.encode(user, authSecret)
     }
 
@@ -225,8 +222,7 @@ module.exports = app => {
                 return true
             })
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                showAndRegisterError(err,  path.basename(__filename))
                 return false
             })
     }
@@ -234,7 +230,7 @@ module.exports = app => {
     const sendSms = async (cellNumber, url) => {
 
         const accountSid = 'AC654e478886b12bb8e06b522f26080d11';
-        const authToken = '0de1d4b9bab5e5f9ea702ad1203f1473';
+        const authToken = '7a2d74ed95bd19ae270e3fbe2c27f8e6';
         const client = require('twilio')(accountSid, authToken);
 
         const message = `
@@ -251,8 +247,8 @@ ${url}
                 return true
             })
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                console.log('')
+                showAndRegisterError(err, path.basename(__filename))
                 return false
             })
     }
@@ -274,11 +270,10 @@ ${url}
             .where({ id: user.id })
             .then(_ => {
                 app.config.middlewares.staticEndpoints.push(endpoint)
-                return res.status(200).send()
+                return res.status(204).send()
             })
             .catch(err => {
-                console.log(err)
-                app.api.bugReport.writeInBugReport(err, path.basename(__filename))
+                showAndRegisterError(err,  path.basename(__filename))
                 return res.status(500).send(err)
             })
     }
