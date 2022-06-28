@@ -1,5 +1,5 @@
 const path = require('path')
-const baseApiUrl = 'http://18.228.220.101:500'
+const baseApiUrl = 'https://18.228.220.101:500'
 
 module.exports = app => {
     const { showAndRegisterError } = require('./commonFunctions.js')
